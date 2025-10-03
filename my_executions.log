@@ -1,0 +1,92 @@
+Jupyter Notebook Execution Log
+Started at: 2025-10-02T21:13:45.357585
+================================================================================
+
+{
+  "timestamp": "2025-10-02T21:14:11.306634",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stderr",
+  "content": "No such comm target registered: jupyter.widget.control\n"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:11.380293",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stderr",
+  "content": "No such comm: ddfb2ea0-2487-472d-a6db-1c02eacfac56\n"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:13.878677",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "cell_number": 1,
+  "type": "input",
+  "execution_count": 12,
+  "code": "!pip3 install scikit-learn"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:14.138335",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stdout",
+  "content": "Requirement already satisfied: scikit-learn in /Users/smothiki/.pyenv/versions/3.10.4/lib/python3.10/site-packages (1.5.2)\r\nRequirement already satisfied: numpy>=1.19.5 in /Users/smothiki/.pyenv/versions/3.10.4/lib/python3.10/site-packages (from scikit-learn) (2.0.2)\r\nRequirement already satisfied: scipy>=1.6.0 in /Users/smothiki/.pyenv/versions/3.10.4/lib/python3.10/site-packages (from scikit-learn) (1.14.1)\r\nRequirement already satisfied: joblib>=1.2.0 in /Users/smothiki/.pyenv/versions/3.10.4/lib/python3.10/site-packages (from scikit-learn) (1.4.2)\r\nRequirement already satisfied: threadpoolctl>=3.1.0 in /Users/smothiki/.pyenv/versions/3.10.4/lib/python3.10/site-packages (from scikit-learn) (3.5.0)\r\n"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:16.169118",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "cell_number": 2,
+  "type": "input",
+  "execution_count": 13,
+  "code": "print(\"who are you\")"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:16.181159",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stdout",
+  "content": "who are you\n"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:17.648393",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "cell_number": 3,
+  "type": "input",
+  "execution_count": 14,
+  "code": "print(\"catch me if you can\")"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:17.659725",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stdout",
+  "content": "catch me if you can\n"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:26.837174",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "cell_number": 4,
+  "type": "input",
+  "execution_count": 15,
+  "code": "print(\"jaffa pailan\")"
+}
+--------------------------------------------------------------------------------
+{
+  "timestamp": "2025-10-02T21:14:26.849342",
+  "kernel_id": "e9f5ede5-7fa6-42bb-ac17-462dcd6ed669",
+  "type": "stream",
+  "stream_name": "stdout",
+  "content": "jaffa pailan\n"
+}
+--------------------------------------------------------------------------------
+
+================================================================================
+Stopped at: 2025-10-02T21:15:09.920904
+Total cells executed: 4
