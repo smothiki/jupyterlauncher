@@ -1,3 +1,49 @@
+
+## Installation
+
+```bash
+pip install nbformat nbconvert jupyter jupyter-client
+```
+
+## Usage
+
+```bash
+# Start Jupyter and log executions (most common use case)
+python script.py
+
+# Specify custom log file
+python script.py -o my_executions.log
+
+# Start in specific directory
+python script.py -d /path/to/notebooks
+
+# Use custom port
+python script.py -p 9999
+
+# Only monitor existing Jupyter server (don't start new one)
+python script.py --no-start
+```
+
+## How it works
+
+- Starts a Jupyter notebook server (opens in your browser)
+- Monitors for kernel activity in the background
+- Captures every cell execution with timestamps
+- Logs inputs, outputs, errors, and stdin requests
+- Press Ctrl+C when done to stop gracefully
+
+## What gets logged
+
+- Cell input code with execution count
+- stdout and stderr streams
+- Execution results
+- Error tracebacks
+- Input prompts (when using input())
+- Display data
+- Execution status
+
+The script will print activity to the console while also saving everything to the log file!
+
 # Jupyter Notebook Execution Logger
 
 A comprehensive tool for monitoring and logging Jupyter notebook executions in real-time. This tool captures all kernel activity including code execution, outputs, errors, and user interactions across multiple notebooks simultaneously.
